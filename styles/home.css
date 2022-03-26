@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap");
+
+
+body {
+    background-color: #BF3047;
+    font-family: "Luckiest Guy", cursive;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* Header Section */
+
+.header {
+    text-align: center;
+    display: inline;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 50px;
+    font-size: 5em;
+    padding: 0;
+    color: white;
+    text-shadow: 0 0.1em 20px black, 0.05em -0.03em 0 black, 0.05em 0.005em 0 black, 0em 0.08em 0 black, 0.05em 0.08em 0 black, 0px -0.03em 0 black, -0.03em -0.03em 0 black, -0.03em 0.08em 0 black, -0.03em 0 0 black;
+  }
+  h1 span {
+    transform: scale(0.9);
+    display: inline-block;
+  }
+  h1 span:first-child {
+    -webkit-animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
+            animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
+  }
+  h1 span:last-child {
+    -webkit-animation: bopB 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
+            animation: bopB 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
+  }
+  
+  @-webkit-keyframes bop {
+    0% {
+      transform: scale(0.9);
+    }
+    50%, 100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes bop {
+    0% {
+      transform: scale(0.9);
+    }
+    50%, 100% {
+      transform: scale(1);
+    }
+  }
+  @-webkit-keyframes bopB {
+    0% {
+      transform: scale(0.9);
+    }
+    80%, 100% {
+      transform: scale(1) rotateZ(-3deg);
+    }
+  }
+  @keyframes bopB {
+    0% {
+      transform: scale(0.9);
+    }
+    80%, 100% {
+      transform: scale(1) rotateZ(-3deg);
+    }
+  }
+
+/* Body Section */
+
+.main-body {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10%;
+}
+
+.main-body button {
+    width: 25%;
+    background-color: #f2cc0c;
+    border: none;
+    border-radius: 2px;
+    height: 55px;
+    margin-top: 25px;
+    text-align: center;
+    color: #000;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
