@@ -26,9 +26,9 @@
         <div class="form-content">
             <div class="close">+</div>
             <img src="../imgs/home-page-form-logo.jpg" alt="form logo">
-            <form action="">
-                <input type="text" placeholder="Name">
-                <input type="number" placeholder="Age">
+            <form action="" onsubmit="event.preventDefault(); ValidateForm();">
+                <input type="text" placeholder="Name" name="username">
+                <input type="number" placeholder="Age" name ="user-age">
                 
                 <label for="male-gender">
                     <input type="radio" id="male-gender" name="gender" value="0">Male
