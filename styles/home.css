@@ -3,7 +3,8 @@
 
 
 body {
-    background-color: #BF3047;
+    background-image: url('../imgs/home-background.jpg');
+    background-size: cover;
     font-family: "Luckiest Guy", cursive;
     margin: 0 auto;
 }
@@ -98,4 +99,84 @@ h1 {
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
+}
+
+/* Game Form */
+
+.game-form {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  top: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-weight: bold;
+  display: none;
+}
+
+.form-content {
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 3px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.game-form img {
+  height: 125px;
+  border-radius: 90px;
+}
+
+.game-form form {
+  margin-top: 50px;
+}
+
+.game-form form input {
+  width: 50%;
+  display: block;
+  margin: 20px auto;
+  padding: 8px;
+	border: 1px solid gray;
+}
+
+.game-form form label {
+  display: inline-block;
+  padding: 20px;
+}
+
+.game-form form .button {
+	background-color: #7fbf1f;
+	border: 2px solid white;
+	border-radius: 30px;
+	text-decoration: none;
+	padding: 10px 28px;
+	color: white;
+	margin-top: 10px;
+	display: inline-block;
+  cursor: pointer;
+}
+
+.game-form form .button:hover {
+  background-color: white;
+  color: #7fbf1f;
+  border: 2px solid #7fbf1f;
+}
+
+.close {
+  position: absolute;
+	top: 5px;
+	right: 15px;
+	font-size: 30px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+
+.close:hover {
+  color: #666;
 }

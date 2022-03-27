@@ -17,10 +17,33 @@
 
     <dev class="container">
         <dev class="main-body">
-            <button>Play</button></br>
+            <button id="game-start">Start</button></br>
             <button>About Us</button>
         </dev>    
     </dev>
+
+    <div class="game-form">
+        <div class="form-content">
+            <div class="close">+</div>
+            <img src="../imgs/home-page-form-logo.jpg" alt="form logo">
+            <form action="">
+                <input type="text" placeholder="Name">
+                <input type="number" placeholder="Age">
+                
+                <label for="male-gender">
+                    <input type="radio" id="male-gender" name="gender" value="0">Male
+                </label>
+            
+                <label for="female-gender">
+                    <input type="radio" id="female-gender" name="gender" value="1">Female
+                </label> </br>
+                
+                <button class="button">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="../js/home.js"></script>
 
 </body>
 </html>
