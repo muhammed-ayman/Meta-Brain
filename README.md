@@ -2,7 +2,6 @@
 
 Meta Brain is a smart platform that diagnoses children with learning difficulties through engaging games based on Machine Learning and Computer Vision Technologies.
 
-------------------------------------------------
 ## <ins>How to use Meta Brain?</ins>
 ### Installation:
 - You first need to install [**Xampp**](https://www.apachefriends.org/download.html).
