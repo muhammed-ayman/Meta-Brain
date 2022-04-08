@@ -9,7 +9,7 @@ Meta Brain is a smart platform that diagnoses children with learning difficultie
 - Open the terminal there and run the following command:
 
     > git clone git@github.com:muhammed-ayman/Meta-Brain.git
-- Make Xampp Virtual Host that points to the public folder in the project, under the link *http://meta-brain.local*. Based on your operating system, Google how to do this step.
+- Make Xampp Virtual Host that points to the public folder in the project/Web App, under the link *http://meta-brain.local*. Based on your operating system, Google how to do this step.
 - Go to your browser and open the virtual host link: *http://meta-brain.local*, and you're ready to go.
 
 ### How to use:
